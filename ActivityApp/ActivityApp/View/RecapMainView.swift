@@ -77,7 +77,7 @@ class RecapMainView: UIView {
             return button
         }
         
-        for (index, button) in optionButtons.enumerated() {
+        for (index, _) in optionButtons.enumerated() {
             let view = UIView()
             view.backgroundColor = UIColor(named: "placeholderBG")
             view.layer.cornerRadius = 8
